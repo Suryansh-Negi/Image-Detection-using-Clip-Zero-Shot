@@ -1,0 +1,30 @@
+# Local environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Secrets and local config
+.env
+.env.*
+.streamlit/secrets.toml
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# ML model caches (downloaded at runtime)
+.cache/
+huggingface/
+models/
+*.pt
+*.pth
+*.onnx

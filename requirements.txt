@@ -1,0 +1,8 @@
+streamlit>=1.28.0
+altair
+pandas
+Pillow
+transformers
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
